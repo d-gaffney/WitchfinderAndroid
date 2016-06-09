@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WitchfinderAndroid</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="submit_selection">Choose Action</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_start">Start</string>
+    <string-array name="action_descriptions">
+        <item>
+            Go about your business
+            (Rouses little suspicion, provides witnesses)
+        </item>
+        <item>
+            Ask someone for a favour
+            (Increases goodwill, you must return the favour)
+        </item>
+        <item>
+            Visit someone
+            (See if the villager is where they are supposed to be)
+        </item>
+    </string-array>
+    <string-array name="action_ids">
+        <item>do_nothing</item>
+        <item>ask_favour</item>
+        <item>visit_player</item>
+    </string-array>
+</resources>
